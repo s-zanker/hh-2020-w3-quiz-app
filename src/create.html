@@ -13,7 +13,47 @@
   </head>
   <body class="main-grid">
     <header class="main-header">Create</header>
-    <main class="card__container scrollable"></main>
+    <main class="card__container scrollable">
+      <!-- FORM -->
+      <form>
+        <fieldset>
+          <legend>New Questions</legend>
+          <label for="question">Question</label>
+          <textarea
+            id="question"
+            name="question"
+            rows="8"
+            cols="38"
+            maxlength="200"
+            placeholder="A new question .."
+            required
+          ></textarea>
+          <label for="answer">Answer</label>
+          <textarea
+            id="answer"
+            name="answer"
+            rows="8"
+            cols="38"
+            maxlength="200"
+            placeholder="The answer .."
+            required
+          ></textarea>
+          <label for="tag">Tags</label>
+          <textarea
+            id="tag"
+            name="tag"
+            rows="1"
+            cols="38"
+            maxlength="35"
+            placeholder="Tags, Tags, Tags .."
+            required
+          ></textarea>
+
+          <button type="submit">submit</button>
+        </fieldset>
+      </form>
+      <!-- /FORM -->
+    </main>
     <nav class="navigation">
       <a class="navigation__link" href="/index.html"
         ><img src="img/house.png" alt=""
