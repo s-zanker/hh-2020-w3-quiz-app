@@ -16,41 +16,43 @@
     <main class="card__container scrollable">
       <!-- FORM -->
       <form>
-        <fieldset>
-          <legend>New Questions</legend>
+        <div class="mb-10">
           <label for="question">Question</label>
           <textarea
             id="question"
             name="question"
-            rows="8"
+            rows="5"
             cols="38"
             maxlength="200"
             placeholder="A new question .."
             required
           ></textarea>
+        </div>
+        <div class="mb-10">
           <label for="answer">Answer</label>
           <textarea
             id="answer"
             name="answer"
-            rows="8"
+            rows="5"
             cols="38"
             maxlength="200"
             placeholder="The answer .."
             required
           ></textarea>
+        </div>
+        <div class="mb-10">
           <label for="tag">Tags</label>
-          <textarea
+          <input
             id="tag"
             name="tag"
-            rows="1"
-            cols="38"
-            maxlength="35"
+            type="text"
+            maxlength="40"
             placeholder="Tags, Tags, Tags .."
             required
-          ></textarea>
+          />
+        </div>
 
-          <button type="submit">submit</button>
-        </fieldset>
+        <button class="mb-20 mx-auto" type="submit">submit</button>
       </form>
       <!-- /FORM -->
     </main>
