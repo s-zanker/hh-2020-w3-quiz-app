@@ -2,6 +2,7 @@
   padding: 20px;
   background: #eee;
   box-shadow: 0 6px 12px #0005;
+  border-radius: 20px;
 }
 
 .card__container {
@@ -11,18 +12,20 @@
 }
 
 .card__hints {
-  border: 2px solid hotpink;
   display: flex;
   justify-content: space-around;
   padding: 0; /* Einrückung nach links */
 }
 
 .card__hints > li {
-  border: 2px solid hotpink;
-  background-color: steelblue;
-  padding: 5px;
+  color: white;
+  /* border: white solid 2px;*/
+  background-color: hotpink;
+  padding: 10px;
 }
 
 .card__btn {
-  /**/
+  background-color: white;
+  color: hotpink;
+  border: 0;
 }

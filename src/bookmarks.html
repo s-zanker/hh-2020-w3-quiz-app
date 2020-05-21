@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App Bookmarks</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
 
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;1,100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-grid">
+    <header class="main-header">Bookmarks</header>
+    <main class="card__container scrollable">
+      <section class="card mb-10">
+        <h1>Question</h1>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          dolorum? Non est sed eos sequi, provident atque beatae maiores. Iste
+          quam impedit in. Harum dolor praesentium consequuntur sequi est enim.
+        </p>
+        <div class="flex-center">
+          <button class="card__btn p-10">Show Answer</button>
+        </div>
+        <ul class="noneliststyle card__hints">
+          <li>hint 1</li>
+          <li>hint 2</li>
+          <li>hint 3</li>
+          <li>hint 4</li>
+        </ul>
+      </section>
+      <section class="card mb-10">
+        <h1>Question</h1>
+        <p class="card__question">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
+          dolorum? Non est sed eos sequi, provident atque beatae maiores. Iste
+          quam impedit in. Harum dolor praesentium consequuntur sequi est enim.
+        </p>
+        <div class="flex-center">
+          <button class="card__btn p-10">Show Answer</button>
+        </div>
+        <ul class="noneliststyle card__hints">
+          <li>hint 1</li>
+          <li>hint 2</li>
+          <li>hint 3</li>
+          <li>hint 4</li>
+        </ul>
+      </section>
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/index.html"
+        ><img src="img/house.png" alt=""
+      /></a>
+      <a class="navigation__link navigation__link--active" href="/"
+        ><img src="img/bookmark-ribbon.png" alt=""
+      /></a>
+      <a class="navigation__link" href="/create.html"
+        ><img src="img/list.png" alt=""
+      /></a>
+      <a class="navigation__link" href="/profile.html"
+        ><img src="img/administrator-male.png" alt=""
+      /></a>
+    </nav>
+  </body>
 </html>
